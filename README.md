@@ -21,7 +21,7 @@ This program was written entirely in C Language.
 </p>
 
 ## COPYRIGHT
-Copyright (C) 2022 by [**Reny Kipkoech**](https://github.com/Tr-reny)[**Stellah Mbao**](https://github.com/StellahMbao)
+Copyright (C) 2022 by [**Reny Kipkoech**](https://github.com/Tr-reny) and [**Stellah Mbao**](https://github.com/StellahMbao)
 
  ## Description :
 This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
