@@ -1,5 +1,5 @@
 <h1 align="center">
-  # 0x16. C - Simple Shell
+  0x16. C - Simple Shell
 </h1>
 
 <p align="center">
