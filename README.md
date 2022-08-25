@@ -81,8 +81,7 @@ ls -la
 * [**Reny Kipkoech**](https://github.com/Tr-reny)
 * [**Stellah Mbao**](https://github.com/StellahMbao)
 
-## Acknowledgments :pray:
-- Our fellow cohort members.
+## Acknowledgments :
 - The creators of the C language.
 - Our software engineer-in-residence.
-- Betty Holberton.
+- Betty Holberton | ALX AFRICA .
