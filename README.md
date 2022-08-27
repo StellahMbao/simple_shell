@@ -48,14 +48,18 @@ Our shell was built and tested on  Ubuntu 14.04 LTS.
 * Support the file input
 
 ## Builtins
-* The exit builtin `exit [STATUS]`
-* The change directory `cd [DIRECTORY] | [OPTION]`
-* Display the environnment variables `env`
-* Initialize a new environnment variables or created if not match `setenv [VARIABLE] [VALUE]`
-* Remove an environnment variable `unsetenv [VARIABLE]`
-* Support the aliases `alias [name [='value'] ...]`
-* Display help `help [BUILTIN]`
-* Display history `history`
+Our shell has support for the following built-in commands:
+
+| Command             | Definition                                                                                |
+| ------------------- | ----------------------------------------------------------------------------------------- |
+| exit [n]            | Exit the shell, with an optional exit status, n.                                          |
+| env                 | Print the environment.                                                                    |
+| setenv [var][value] | Set an environment variable and value. If the variable exists, the value will be updated. |
+| alias[name[='value]]| Reads aliases name                                                                        |
+| unsetenv [var]      | Remove an environment variable.                                                           |
+| cd [dir]            | Change the directory.                                                                     |
+| help [built-in]     | Read documentation for a built-in.                                                        |
+
 
  ## Installation : Getting HSH
  
