@@ -1,0 +1,58 @@
+"manpage for Simple_shell. Simple shell project to ALX- Holberton School.
+.TH man 1 "7 September 2021" "Simple Shell"                    "7 September 2022" "1.0"                                              "simple_shell man page"
+SH NAME
+Holberton Simple Shell
+- A simple UNIX command line interpreter.
+.SH SYNOPSIS
+.B ./hsh [options] [command_string | file]
+
+.SH DESCRIPTION
+.LP
+.B hsh
+is an sh-compatible command language interpreter that reads and executes commands from standard input. It is conformed to the POSIX specificati>
+.LP
+
+.SH OVERVIEW
+The shell reads commands from the terminal and executes them.
+
+.SS Invocation
+.B hsh
+is invoked by the command:
+.br
+.\&$ ./hsh
+        A prompt will appear for the user to enter and execute commands by typing comma
+        nd names and pressing the return key. A user can also pipe commands into the pr
+        ogram via the pipe character '|'.
+For example:
+.br
+\&$ echo "hello world" | ./hsh
+.SH INSTALLATION
+.I To install:
+.br
+
+.B git clone https://github.com/StellahMbao/simple_shell.git
+br
+
+.I Compile files using:
+.br
+
+.B gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.br
+.br
+
+.SH EXAMPLE
+$ ./hsh
+.br
+$ ls -l
+.SH SEE ALSO
+sh(1)
+
+.SH HISTORY
+.B hsh
+is based on the Thompson Shell program written by Ken Thompson.
+
+.SH BUGS
+Only one error message will print upon failure. If any further bugs are found please contact the authors.
+
+.SH AUTHORS
+written by Reny Kipkoech & Stellah Mbao
